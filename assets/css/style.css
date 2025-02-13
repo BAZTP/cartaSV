@@ -71,11 +71,13 @@
   transform: skew(10deg, 20deg);
   position: relative;
   overflow: hidden;
+  height: 900px;
 }
 
 .side.two {
   transform: skew(10deg, -15deg);
-  background: linear-gradient(-90deg, #fff, #fff 40%, #f0f0f0);
+  background: linear-gradient(-90deg, #fff, #fff 200px, #f0f0f0);
+  height: 900px;
 }
 
 body {
